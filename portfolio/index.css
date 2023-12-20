@@ -1,0 +1,167 @@
+*{
+    background-color: #f3f3f3;
+}
+
+/* nav css */
+.nav{
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+}
+
+
+.nav a{
+    margin: 1em 1em;
+    display: flex;
+}
+
+#name{
+    margin: 1% 0%;
+    padding-left: 0.5em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover{
+    color: orangered;
+}
+
+.links{
+    display: flex;
+    float: right;
+    margin-left: 62%;
+}
+
+
+/* main css */
+.mid{
+    height: 100vh;
+    width: 95vw;
+    display: flex;
+    margin-bottom: 15%;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+}
+
+img{
+    height: 75%;
+    width: 78%;
+    border-radius: 50%;
+    margin-top: 25%;
+    margin-left: 20%;
+}
+
+.right{
+    padding-top: 10%;
+    padding-left: 4%;
+    height: 100%;
+    width: 50%;
+}
+
+#heading{
+    font-size: 5em;
+    font-weight: bolder;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#sub{
+    margin-top: -5%;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#about-content{
+    text-indent: 5em;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 500;
+    font-style: italic;
+}
+
+.links2{
+    display: flex;
+    margin-top: 8%;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.label{
+    background-color: transparent;
+    padding: 23% 0%;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+.resume{
+    height: 25vh;
+    width: 13vw;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #EEA302;
+    border: 2px solid #b47c02;
+    color: black;
+}
+
+.resume:hover{
+    background-color: aliceblue;
+}
+
+.projects{
+    height: 25vh;
+    width: 13vw;
+    border-radius: 50%;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #FF3B25;
+    border: 2px solid #912418;
+    color: black;
+}
+
+.projects:hover{
+    background-color: aliceblue;
+}
+
+.contact{
+    height: 25vh;
+    width: 13vw;
+    border-radius: 50%;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #80D8DA;
+    border: 2px solid #438A8B;
+    color: black;
+}
+
+.contact:hover{
+    background-color: aliceblue;
+}
+
+
+/* footer css */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content{
+    margin-top: -3vh;
+    font-style: oblique;
+}
+
+.content-add{
+    font-style: oblique;
+}
+
+.content a{
+    margin-right: 1vw;
+}

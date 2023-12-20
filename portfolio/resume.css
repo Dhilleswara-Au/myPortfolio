@@ -1,0 +1,157 @@
+*{
+    background-color: #f3f3f3;
+    scroll-behavior: smooth;
+}
+
+/* nav css */
+.nav{
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+}
+
+.nav a{
+    margin: 1em 1em;
+    display: flex;
+}
+
+#name{
+    margin: 1% 0%;
+    padding-left: 0.5em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover{
+    color: orangered;
+}
+
+.links{
+    display: flex;
+    float: right;
+    margin-left: 62%;
+}
+
+/* newnav css */
+header{
+    position: fixed;
+    top: 1%; left: 30%;
+    z-index: 1000;
+    padding: 25px;
+    width: 30%;
+    border-radius: 5vw;
+    border: 1px black solid;
+    font-size: 1em;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header nav a{
+    padding: 1.5vh 2vw;
+    justify-content: space-between;
+    color: orangered;
+    text-decoration: none;
+}
+
+header nav a.active,
+header nav a:hover{
+    background: orangered;
+    color: white;
+    border-radius: 2vw;
+}
+
+
+/* main css */
+#heading{
+    padding-top: 3%;
+    padding-left: 10%;
+    font-size: 4em;
+    font-weight: bolder;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.left{
+    margin-top: -3%;
+    padding-left: 10%;
+    width: 45%;
+    height: 50%;
+}
+
+.section{
+    display: flex;
+}
+
+.education{
+    margin-top: -3%;
+    flex-direction: column;
+}
+
+.sub-label{  
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.dates{
+    margin-left: -5%;
+}
+
+.institution{
+    margin-top: -2%;
+    margin-left: 5%;
+    flex-direction: column;
+    width: 30em;
+}
+
+.institute-name{
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    font-stretch: expanded;
+}
+
+.institute-content{
+    text-indent: 3em;
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+}
+
+.dates{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.container-content{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+}
+
+/* footer css */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content{
+    margin-top: -3vh;
+    font-style: oblique;
+}
+
+.content-add{
+    font-style: oblique;
+}
+
+.content a{
+    margin-right: 1vw;
+}
